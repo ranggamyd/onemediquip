@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Onemediquip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <header class="pt-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center">
+                <a href="/" class="d-flex align-items-center mb-0 text-dark text-decoration-none">
+                    <img src="assets/img/logo.png" class="img-thumbnail circle" alt="logo"
+                        style="width: 50px; height: 50px" />
+                    <span class="fs-4 ms-3">Onemediquip</span>
+                </a>
+
+                <form class="ms-auto mb-0 me-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search .." aria-label="Search" />
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle" />
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="py-3 nav nav-pills d-flex justify-content-between">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="all_products.html" class="nav-link text-secondary">All Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="category.html" class="nav-link text-secondary ">First Aid Kits</a>
+                </li>
+                <li class="nav-item">
+                    <a href="category.html" class="nav-link text-secondary">Antiseptics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="category.html" class="nav-link text-secondary">Bandages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="category.html" class="nav-link text-secondary">Lab Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a href="categories.html" class="nav-link text-secondary ">Others</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faqs.html" class="nav-link text-secondary">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link active ">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container px-4 py-3">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <img src="assets/img/antiseptik.jpg" class="d-block mx-auto img-fluid rounded" alt="About" width="700"
+                        height="500" loading="lazy" />
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Antiseptik <p class="float-end fs-4 mt-3 text-warning">9/10 <i class="fas fa-star"></i></p></h1>
+                    
+                    <div class="alert alert-info"><h5 class="mb-0 fs-4">Rp. 66.000</h5></div>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officia autem voluptate dolor, tempore maiores repellendus ad velit dolores veritatis ullam est esse tempora saepe id nobis, accusantium explicabo adipisci! Sapiente sunt et sequi, quaerat itaque ipsum exercitationem placeat laborum quo maxime eius ratione quas iusto provident impedit. Reprehenderit, nesciunt.
+                    </p>
+                    <div class="input-group mb-3 w-25">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fas fa-minus"></i></button>
+                        <input type="text" value="1" class="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fas fa-plus"></i></button>
+                      </div>
+                    <div class="d-grid gap-2 d-flex justify-content-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                            <i class="fas fa-cart-plus me-2"></i>Masukkan ke keranjang
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                            Beli sekarang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+
+            <div class="container">
+                <h2 class="pb-2 mb-3 border-bottom">Related Products</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <a href="product.html">
+                                <img src="assets/img/antiseptik.jpg" alt="" class="card-img-top"
+                                    style="height: 250px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h6>Antiseptik</h6>
+                                <p class="card-text">Rp. 66.000</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            <i class="fas fa-cart-plus"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Beli sekarang
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9/10 <i class="fas fa-star"></i></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <a href="product.html">
+                                <img src="assets/img/face shield.jpg" alt="" class="card-img-top"
+                                    style="height: 250px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h6>Face Shield</h6>
+                                <p class="card-text">Rp. 66.000</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            <i class="fas fa-cart-plus"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Beli sekarang
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9/10 <i class="fas fa-star"></i></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <a href="product.html">
+                                <img src="assets/img/alat cek kolesterol.jpg" alt="" class="card-img-top"
+                                    style="height: 250px; object-fit: cover;">
+                            </a>
+                            <div class="card-body">
+                                <h6>Alat Cek Kolesterol</h6>
+                                <p class="card-text">Rp. 66.000</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            <i class="fas fa-cart-plus"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Beli sekarang
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9/10 <i class="fas fa-star"></i></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="assets/img/logo.png" class="img-thumbnail circle" alt="logo"
+                        style="width: 50px; height: 50px" />
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">Copyright &copy; 2022 <br> PT. Alphatirta Medica</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-muted" href="#"><i class="fab fa-twitter"></i></svg></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted" href="#"><i class="fab fa-instagram"></i></svg></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted" href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
